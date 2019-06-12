@@ -1,1 +1,33 @@
 // Navigation Styles here
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media @mobile {
+        .mobile()
+    }
+    h1 {
+       justify-self: flex-start; 
+    }
+    nav {
+        display: flex;
+        @media @mobile {
+            width: 100%;
+            justify-content: space-around;
+        }
+        a {
+            color: black;
+            margin: 20px;
+            text-decoration: none;
+            @media @mobile {
+                margin: 0px;
+            }
+        }     
+    }
+
+}
+
+.header-img {
+    padding-bottom: 20px;
+}
